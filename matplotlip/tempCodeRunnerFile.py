@@ -1,1 +1,0 @@
-plt.ylabel("Gol Sayısı")
