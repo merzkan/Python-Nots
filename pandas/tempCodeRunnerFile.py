@@ -1,0 +1,1 @@
+beğeni_oranı

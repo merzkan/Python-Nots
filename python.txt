@@ -1,0 +1,29 @@
+import random
+print(random.randrange(1,10))
+
+list  []
+tuple ()
+set   {}
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(dict["brand"])
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+Liste, sıralı ve değişken bir koleksiyondur. Yinelenen üyelere izin verir.
+Tuple, sıralı ve değişmez bir koleksiyondur. Yinelenen üyelere izin verir.
+Set, sırasız, değiştirilemez* ve indekslenmemiş bir koleksiyondur. Yinelenen üye yok.
+Sözlük sıralı** ve değişken bir koleksiyondur. Yinelenen üye yok.
+
+
+
+Özellik	                      List	       Tuple	        Set	                Dictionary
+Sıralı mı?	              Evet	       Evet	        Hayır	                Evet
+Değiştirilebilir mi?	      Evet	       Hayır	        Evet	                Evet
+Tekrar eden eleman?	      Evet	       Evet	        Hayır	                Anahtarlarda hayır
+Kullanım Amacı	              Genel amaçlı     Sabit veriler	Benzersiz veriler	Anahtar-değer çiftleri
